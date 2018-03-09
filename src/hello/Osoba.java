@@ -74,7 +74,7 @@ public class Osoba {
 
     // bez @Override działa tak samo
     public String toString() {
-   	 return imie + " " + nazwisko + " ur."+ dataUrodzenia;
+   	 return imie + " " + nazwisko + " " + getWiek() + " lat";
     }
     
     public String kimJestes() {
