@@ -13,6 +13,8 @@ public class Hello {
 		Konto konto = new Konto(11, 2000, ala);
 		konto.wplata(500);
 		System.out.println(konto);
+		
+		System.out.println("A jednak nie koniec");
 	}
 
 }
